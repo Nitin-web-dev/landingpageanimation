@@ -431,4 +431,38 @@ html, body {
 /* // project section end */
 
 
+/* // slide section start  */
+.swiper {
+    width: 900px;
+    height: 500px;
+  }
 
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .imgslidercontent {
+    width: 100px;
+    height: 100px;
+  }
+  .imgslidercontent > img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+
+  .swiper-slide > h3 {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+  }
+  .swiper-slide > h4 {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Sevillana", cursive;
+  }
+
+/* // slide section end */
